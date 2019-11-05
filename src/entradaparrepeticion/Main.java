@@ -35,7 +35,7 @@ public class Main {
                 if (par % 2 == 0) {
                     
                     semaforo = false;
-                    System.out.println("El numero que has introducido es: "+par );
+                    System.out.println("Número par ...: "+par );
                 } else {
                     semaforo = true;}
             } catch (Exception e) {
