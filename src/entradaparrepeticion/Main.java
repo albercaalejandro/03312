@@ -30,10 +30,12 @@ public class Main {
         do {
 
             try {
+                System.out.print("Introduce un numero par: ");
                 int par = SCN.nextInt();
                 if (par % 2 == 0) {
+                    
                     semaforo = false;
-                    System.out.println("pepe");
+                    System.out.println("El numero que has introducido es: "+par );
                 } else {
                     semaforo = true;}
             } catch (Exception e) {
